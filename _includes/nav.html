@@ -1,7 +1,7 @@
 <div class="header-container">
     <nav class="navbar navbar-expand-lg navbar-dark bg-darkblue">
         <div class="container">
-            <a class="navbar-brand" href="https://www.hellenic-milsim.community/">{{ site.title }}</a>
+            <a class="navbar-brand" target="_top" href="https://www.hellenic-milsim.community/">{{ site.title }}</a>
 
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
@@ -11,7 +11,7 @@
 
                 {% for item in site.data.nav %}
                 <li class="nav-item">
-                    <a class="nav-link" target="_parent" href="{{ site.url }}{{ item.href }}">{{ item.name }}</a>
+                    <a class="nav-link" target="_top" href="{{ site.url }}{{ item.href }}">{{ item.name }}</a>
                 </li>
                 {% endfor %}
 
