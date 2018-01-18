@@ -4,33 +4,28 @@
             <a class="navbar-brand" href="https://www.hellenic-milsim.community/">Hellenic Milsim</a>
 
             <ul class="navbar-nav ml-auto">
-
                 <li class="nav-item">
                     <a class="nav-link active" href="https://www.hellenic-milsim.community/">Forum</a>
                     <span class="sr-only">(current)</span>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" target="_parent" href="https://www.hellenic-milsim.community/join">Ένταξη</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" target="_parent" href="https://www.hellenic-milsim.community/rules">Κανόνες</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" target="_parent" href="https://www.hellenic-milsim.community/events">Events</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" target="_parent" href="https://www.hellenic-milsim.community/tags/guide">Οδηγοί</a>
 
-                </li>
+                {% for item in site.data.nav %}
                 <li class="nav-item">
-                    <a class="nav-link" href="https://hellenicmilsim.github.io/Pages/info/foreign_teams">Foreign Teams</a>
+                    <a class="nav-link" target="_parent" href="{{ site.url }}{{ item.href }}">{{ item.name }}</a>
                 </li>
+                {% endfor %}
+
             </ul>
 
-            <form class="form-inline  my-2 my-sm-0" style="width:74px" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <form class="form-inline  my-2 my-sm-0" style="width:74px" action="https://www.paypal.com/cgi-bin/webscr"
+                  method="post" target="_top">
                 <input type="hidden" name="cmd" value="_s-xclick">
                 <input type="hidden" name="hosted_button_id" value="EDUZSUL934Y3G">
-                <button class="btn btn-sm my-2 my-sm-0 btn-paypal" type="submit" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"><i class="fa fa-paypal" aria-hidden="true"></i>Donate</button>
+                <button class="btn btn-sm my-2 my-sm-0 btn-paypal" type="submit" border="0" name="submit"
+                        alt="PayPal - The safer, easier way to pay online!"><i class="fa fa-paypal"
+                                                                               aria-hidden="true"></i>
+                    Donate
+                </button>
                 <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
             </form>
 

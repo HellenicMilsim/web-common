@@ -1,26 +1,22 @@
 [
   {
-    "href": "",
-    "name": "Forum"
-  },
-  {
-    "href": "",
+    "href": "/join",
     "name": "Ένταξη"
   },
   {
-    "href": "",
+    "href": "/rules",
     "name": "Κανόνες"
   },
   {
-    "href": "",
+    "href": "/events",
     "name": "Events"
   },
   {
-    "href": "",
+    "href": "/tags/guides",
     "name": "Οδηγοί"
   },
   {
-    "href": "",
+    "href": "/foreign-teams",
     "name": "Foreign Teams"
   }
 ]
