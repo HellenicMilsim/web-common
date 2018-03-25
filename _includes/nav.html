@@ -11,7 +11,7 @@
 
                 {% for item in site.data.nav %}
                 <li class="nav-item">
-                    <a class="nav-link" target="_top" href="{{ site.url }}{{ item.href }}">{{ item.name }}</a>
+                    <a class="nav-link" target="_top" href="{{ site.url }}{{ item.href }}"><i class="{{item.fa}}"></i> {{ item.name }}</a>
                 </li>
                 {% endfor %}
 

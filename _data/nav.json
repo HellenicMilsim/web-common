@@ -1,22 +1,28 @@
 [
   {
     "href": "/join",
-    "name": "Ένταξη"
+    "name": "Ένταξη",
+    "fa": "fas fa-sign-in-alt"
   },
   {
     "href": "/rules",
-    "name": "Κανόνες"
+    "name": "Κανόνες",
+    "fa": "fas fa-balance-scale"
   },
   {
     "href": "/events",
-    "name": "Events"
+    "name": "Events",
+    "fa": "far fa-calendar-alt"
   },
   {
     "href": "/tags/guide",
-    "name": "Οδηγοί"
+    "name": "Οδηγοί",
+    "fa": "fas fa-book"
+
   },
   {
     "href": "/foreign-teams",
-    "name": "Foreign Teams"
+    "name": "Foreign Teams",
+    "fa": "fas fa-globe"
   }
 ]
